@@ -1,0 +1,80 @@
+/* ROOT ELEMENTS */
+
+html, body {
+    margin: 0;
+}
+
+* {
+    color: #333;
+}
+
+#screen {
+    min-height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+textarea {
+    margin: 0 auto 50vh;
+    width: 90vw;
+    height: 200px;
+}
+
+.station {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    width: 500px;
+}
+
+.furigana {
+    font-size: .7em;
+    line-height: 1em;
+}
+.mainname {
+    font-size: 1.3em;
+}
+.mainname-bigger {
+    font-size: 1.7em;
+}
+.round {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.noto {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.vl {
+    margin: 0 20px;
+    border-left: 6px solid black;
+    height: 50px;
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    top: 17px;
+    left: -11px;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    outline: 4px solid black;
+    border-radius: 50%;
+    z-index: 99;
+}
